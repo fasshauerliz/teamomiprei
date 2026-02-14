@@ -5,7 +5,7 @@ body {
     background-size: cover;
     background-position: center;
     color: rgb(255, 199, 199);
-    padding: 20px;
+    padding: 40px;
 }
 .flecha img {
     width: 60px;
@@ -17,14 +17,14 @@ body {
     transition: transform 0.2s ease;
     padding-left: 250px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 50px;
+    left: 30px;
     z-index: 10;
 }
 
 .titulofolder2 {
      text-align: center;
-     font-size: clamp(18px, 5vw, 28px);
+     font-size: 25px;
      font-family: "Press Start 2P", cursive;
      font-weight: 650;
      margin: 0 0 50px 0;  
@@ -37,12 +37,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
+    gap: 80px;
     padding: 40px;
     max-width: 1500px;
     width: 1000px;
     position: relative;
-    flex-wrap: wrap;
 }
 
 .izquierda {
@@ -73,42 +72,38 @@ body {
 }
 
 .cuadroTexto1 {
-    width: 100%;
-    max-width: 350px;
+    width: 350px;
     min-height: 350px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 20px;
     line-height: 1.6;
-    font-size: clamp(16px, 2.5vw, 25px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    word-wrap: break-word;
-    box-sizing: border-box;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
 }
 .izquierda {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     min-width: 420px;
 
 }
 .contenedorGrande {
-    width: 90%;
+    width: 85%;
     max-width: 1100px;
     margin: 40px auto;
+    padding: 30px;
+    position: relative;
 }
 .imagengatoconejo {
     width: 100%;
     max-width: 300px;
+    display: block;
+    margin: 0 auto 5px auto;  /* centrada y con espacio abajo */
     border-radius: 15px;
-    margin-bottom: 10px;
-    opacity: 0.85;
-    height: auto;  
-    object-fit: contain; 
-    position: relative;
+    opacity: 85%;
+
 }
 .flecha img {
     width: 60px;
@@ -117,16 +112,4 @@ body {
 
 .flecha img:hover {
     transform: scale(1.15);
-}
-@media (max-width: 480px) {
-    .contenido {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .cuadroTexto1 {
-        min-height: auto;
-    }
-    .spotify iframe {
-        height: 100px;
-    }
 }
