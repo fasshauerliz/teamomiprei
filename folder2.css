@@ -7,20 +7,6 @@ body {
     color: rgb(255, 199, 199);
     padding: 40px;
 }
-.flecha img {
-    width: 60px;
-    transition: transform 0.2s ease;
-    display: block;
-}
-.flecha {
-    width: 60px;
-    transition: transform 0.2s ease;
-    padding-left: 250px;
-    position: absolute;
-    top: 50px;
-    left: 30px;
-    z-index: 10;
-}
 
 .titulofolder2 {
      text-align: center;
@@ -104,12 +90,4 @@ body {
     border-radius: 15px;
     opacity: 85%;
 
-}
-.flecha img {
-    width: 60px;
-    transition: transform 0.2s ease;
-}
-
-.flecha img:hover {
-    transform: scale(1.15);
 }
